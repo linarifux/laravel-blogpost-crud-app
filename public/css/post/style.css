@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #d2dae2;
+}
+
+.container {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 2rem 0;
+}
+
+.header .title {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    border-bottom: 5px solid black;
+    line-height: 8rem;
+}
+
+.main-content {
+    padding: 2rem 0;
+}
+
+.all-posts {
+    padding: 2rem 0;
+}
+.single-post {
+    max-width: 40vw;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    align-items: center;
+}
+.post-content {
+    width: 60%;
+}
+
+.post-actions {
+    display: flex;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background: rgb(68, 136, 224);
+    margin: 0 1rem;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.primary-btn,
+.post-btn {
+    text-align: center;
+}
+.post-btn a {
+    padding: 1rem 4rem;
+    font-size: 20px;
+}
+.primary-btn button {
+    padding: 1rem 4rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(68, 136, 224);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Post Edit Styles */
+
+.title-field,
+.body-field {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.title-field input,
+textarea {
+    padding: 1rem;
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.delete-button {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background: rgb(68, 136, 224);
+    margin: 0 1rem;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
